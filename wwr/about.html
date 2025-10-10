@@ -9,17 +9,22 @@
     <meta name="author" content="Garret James">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="site logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li> 
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a> </li>  
-            </ul>
-           
-        </nav>
+    <header class="site-header">
+        <div class="header-inner">        
+            <a>
+                <img src="images/logo.png" alt="site logo">
+            </a>
+            <nav>
+                <ul class="nav-list" aria-label="Primary">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a> </li>  
+                </ul>
+            </nav>
+        </div>
+
+        
     </header>
     <main>
         <div class="hero">
@@ -32,12 +37,42 @@
         </div>
         
         
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quasi quod amet odit tenetur vel error recusandae, autem nemo id eligendi qui laborum voluptatum delectus eum blanditiis. Beatae, fugit autem?</p>
+            <div class="history-grid">
+                <article class="history-col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quasi quod amet odit tenetur vel error recusandae, autem nemo id eligendi qui laborum voluptatum delectus eum blanditiis. Beatae, fugit autem?</p>
+                </article>
+                <figure class="history-media">
+                    <img src="images/history.jpg" alt="Rafting on the river">
+                </figure>
+                <article class="history-col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptas omnis eaque dicta nostrum expedita, quis blanditiis modi explicabo, itaque eos, est ullam tempore amet reiciendis repellat. Quia, impedit tempora?</article>
+            </div>
         </section>
         <section>
             <h2>Adventure Awaits You!</h2>
+            <div class="adventure-gallery">
+                <figure>
+                <img src="images/adventure1.jpg" alt="Los Dientes del Diablo rapids">
+                <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                <img src="images/adventure2.jpg" alt="Big Mallard rapids">
+                <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                <img src="images/adventure3.jpg" alt="Half Day Adventure group rafting">
+                <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                <img src="images/adventure4.jpg" alt="Pine Creek rapids">
+                <figcaption>Pine Creek</figcaption>
+                </figure>
+                <figure>
+                <img src="images/adventure5.jpg" alt="The Gauntlet rapid">
+                <figcaption>The Gauntlet</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
