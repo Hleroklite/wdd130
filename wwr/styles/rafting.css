@@ -327,7 +327,9 @@ fieldset label {
   background: #fff;
   margin: 16px; 
 }
-.team > h2 { text-align: center; margin: .25rem 0 1rem; }
+.team > h2 {
+   text-align: center; margin: .25rem 0 1rem; 
+  }
 
 
 section.team .team-grid {
@@ -359,6 +361,10 @@ section.team figcaption { margin-top: .5rem; line-height: 1.35; color: #2e3a4a; 
 }
 
 
-body { color: #222; }
-a { color: var(--accent1-color); }
+body {
+   color: #222; 
+}
+a {
+   color: var(--accent1-color); 
+}
 

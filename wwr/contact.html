@@ -41,7 +41,16 @@
 
             <div class="contact-grid">
                 <div class="map" aria-label="Map showing our location">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210726.455658187!2d-123.45572649942993!3d38.198866190685735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809affc528fbc6a1%3A0x89fdd824a9bab1a9!2sWhitewater%20Excitement%2C%20Inc.!5e0!3m2!1sen!2sus!4v1760202584580!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=..."
+                    width="600"
+                    height="450"
+                    style="border:0;"  
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
                 </div>
 
                 <form class="contact-form" method="post" action="/contact">
@@ -57,10 +66,23 @@
 
                     <fieldset class="form-row">
                     <legend>Message Purpose</legend>
-                    <label><input type="radio" name="purpose" value="general" checked> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+
+                    <div>
+                        <input type="radio" id="purpose-general" name="purpose" value="general" checked>
+                        <label for="purpose-general">General Inquiry</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        <label for="purpose-reservation">Reservation Question</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="purpose-website" name="purpose" value="website">
+                        <label for="purpose-website">Website Suggestion</label>
+                    </div>
                     </fieldset>
+
 
                     <div class="form-row">
                     <label for="message">Message</label>
