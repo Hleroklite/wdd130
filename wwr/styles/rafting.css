@@ -56,16 +56,18 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
 }
+
 
 .hero {
     position: relative;
@@ -287,11 +289,18 @@ fieldset label {
   line-height: 1.5;
 }
 
-.contact-info h2 {
+.contact-info h1 {
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
   margin-bottom: 0.3rem;
   font-size: 1.5rem;
   font-weight: 700;
+  text-align: center;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
+
+
 
 .contact-info a {
   color: #1a73e8; 
