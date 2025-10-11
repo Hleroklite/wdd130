@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - White Water Rafting .CO</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="This is an about us page for our White Water Rafting Website">
+    <meta name="author" content="Garret James">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">        
+            <a>
+                <img src="images/logo.png" alt="site logo">
+            </a>
+            <nav>
+                <ul class="nav-list" aria-label="Primary">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a> </li>  
+                </ul>
+            </nav>
+        </div>
+
+        
+    </header>
+    <main>
+
+
+        <section class="contact">
+
+            <address class="contact-info">
+                <h2>White Water Rafting Company</h2>
+                123 Main River Street<br />
+                Kolob, California<br />
+                +1 (999) 999-9999<br />
+                <a href="mailto:info@whitewater.com">info@whitewater.com</a>
+            </address>
+
+            <div class="contact-grid">
+                <div class="map" aria-label="Map showing our location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210726.455658187!2d-123.45572649942993!3d38.198866190685735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809affc528fbc6a1%3A0x89fdd824a9bab1a9!2sWhitewater%20Excitement%2C%20Inc.!5e0!3m2!1sen!2sus!4v1760202584580!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <form class="contact-form" method="post" action="/contact">
+                    <div class="form-row">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+                    </div>
+
+                    <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+                    </div>
+
+                    <fieldset class="form-row">
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general" checked> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                    </fieldset>
+
+                    <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type here" rows="5" required></textarea>
+                    </div>
+
+                    <label class="checkbox-row">
+                    <input type="checkbox" name="newsletter" value="yes">
+                    Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button class="btn" type="submit">Get in Touch!</button>
+
+                </form>
+            </div>
+        </section>
+
+        </section>
+        <section class="team">
+            <h2>We Are Here to Serve You</h2>
+            <div class="team-grid">
+                <figure class="profile">
+                <div class="photo">
+                    <img src="images/jaime.webp" alt="Jamie Rivers - Lead Rafting Guide">
+                </div>
+                <figcaption>
+                    <strong>Jamie Rivers</strong><br>
+                    <span class="muted">Lead Rafting Guide</span>
+                </figcaption>
+                </figure>
+
+                <figure class="profile">
+                <div class="photo">
+                    <img src="images/sofia.webp" alt="Sofia Martinez - Adventure Coordinator">
+                </div>
+                <figcaption>
+                    <strong>Sofia Martinez</strong><br>
+                    <span class="muted">Adventure Coordinator</span>
+                </figcaption>
+                </figure>
+
+                <figure class="profile">
+                <div class="photo">
+                    <img src="images/marcus.webp" alt="Marcus Kim - Senior Safety Instructor">
+                </div>
+                <figcaption>
+                    <strong>Marcus Kim</strong><br>
+                    <span class="muted">Senior Safety Instructor</span>
+                </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>
+        ©️2025 | White Water Rafting CO. | Garret James
+        </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.webp" alt="facebook icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-icon.webp" alt="linkedin icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta-icon.webp" alt="instaram icon">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x-icon.webp" alt="x icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
