@@ -350,10 +350,10 @@ fieldset label {
 
 
 section.team .team-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, 220px) !important;
-  gap: 1.25rem !important;
-  justify-content: space-between !important;
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  gap: 1.25rem;
+  justify-content: space-between;
 }
 
 
@@ -365,15 +365,15 @@ section.team figcaption { margin-top: .5rem; line-height: 1.35; color: #2e3a4a; 
 
 @media (max-width: 860px){
   section.team .team-grid{
-    grid-template-columns: repeat(2, 220px) !important;
-    justify-content: center !important;
-    gap: 1rem 2rem !important;
+    grid-template-columns: repeat(2, 220px);
+    justify-content: center;
+    gap: 1rem 2rem;
   }
 }
 @media (max-width: 520px){
   section.team .team-grid{
-    grid-template-columns: 220px !important;
-    justify-content: center !important;
+    grid-template-columns: 220px;
+    justify-content: center ;
   }
 }
 
